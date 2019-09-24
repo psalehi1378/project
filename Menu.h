@@ -8,7 +8,5 @@ private:
 	static const int PassengerPass = 67890;
 public:
 	static int displayMain();
-	static void displayAdmin();
-	static void displayPassenger();
 };
 
