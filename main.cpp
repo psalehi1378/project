@@ -15,14 +15,20 @@ using namespace std;
 
 int main()
 {
+	Admin admin;
+	Passenger passenger;
 	int t = Menu::displayMain();
 	if (t == 1)
 	{
-		Menu::displayAdmin();
+		admin.displayAdmin();
 	}
 	else if (t == 2)
 	{
-		Menu::displayPassenger();
+		passenger.displayPassenger();
+	}
+	else if (t == 3)
+	{
+
 	}
 	
 
