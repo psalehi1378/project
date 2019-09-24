@@ -11,6 +11,6 @@ public:
 	void setName(string n);
 	int getPassword();
 	void setPassword(int p); 
-
+	virtual void display() = 0;
 };
 
