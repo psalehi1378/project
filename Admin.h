@@ -5,9 +5,10 @@ class Admin: public User
 {
 private:
 	string name;
-	int password;
-public:
+	int AdminPass = 12345;
 
+public:
+	void displayAdmin();
 
 };
 
