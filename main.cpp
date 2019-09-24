@@ -20,11 +20,11 @@ int main()
 	int t = Menu::displayMain();
 	if (t == 1)
 	{
-		admin.displayAdmin();
+		admin.display();
 	}
 	else if (t == 2)
 	{
-		passenger.displayPassenger();
+		passenger.display();
 	}
 	else if (t == 3)
 	{
