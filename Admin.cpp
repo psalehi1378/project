@@ -12,7 +12,7 @@
 #include "FlightHandling.h"
 using namespace std;
 
-void Admin::displayAdmin()
+void Admin::display()
 {
 	system("CLS");
 	cout << "===========================================" << endl;
@@ -27,6 +27,6 @@ void Admin::displayAdmin()
 	else
 	{
 		cout << "Incorrect Password\n Please Try again\n";
-		displayAdmin();
+		display();
 	}
 }
