@@ -8,7 +8,7 @@ private:
 	int AdminPass = 12345;
 
 public:
-	void displayAdmin();
+	void display();
 
 };
 
