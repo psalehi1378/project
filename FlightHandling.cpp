@@ -12,6 +12,14 @@
 #include "FlightHandling.h"
 using namespace std;
 
+FlightHandling::FlightHandling()
+{
+	Delay = 0;
+	date = 0;
+	time = 0;
+	setGate();
+}
+
 void FlightHandling::startCheckIn()
 {
 
