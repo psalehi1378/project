@@ -11,3 +11,11 @@
 #include "Airline.h"
 #include "FlightHandling.h"
 using namespace std;
+
+Airport::Airport()
+{
+	Airportname();
+	Countryname();
+	code = 0;
+	fee = 0.0;
+}
